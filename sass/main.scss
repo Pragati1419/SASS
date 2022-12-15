@@ -1,0 +1,17 @@
+@import 'variable';
+@import 'mixin';
+
+
+h1{
+    @include commonproperty;
+}
+
+a{
+    @include commonproperty;
+    text-decoration: underline;
+}
+
+p{
+    @include commonproperty;
+}
+
